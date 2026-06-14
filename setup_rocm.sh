@@ -49,7 +49,7 @@ echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
 # 6. Install PyTorch Nightly with ROCm 7.2 support globally
 echo "[*] Deploying PyTorch Nightly for ROCm 7.2 (System-wide)..."
 pip install --pre torch torchvision torchaudio \
-    --index-url https://pytorch.org \
+    --index-url https://download.pytorch.org/whl/nightly/rocm7.2 \
     --break-system-packages
 
 echo "========================================="

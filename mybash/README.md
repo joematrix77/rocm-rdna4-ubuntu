@@ -53,3 +53,11 @@ windows — and reopen it** so the new font and shell config take effect.
 > ROCm env vars (`HSA_OVERRIDE_GFX_VERSION`, `PYTORCH_ROCM_ARCH`, …) belong in
 > `~/.bashrc_personal`, not `~/.bashrc`. Don't also run step 5 of
 > `../setup_rocm.sh`, or you'll get duplicate exports.
+
+## Reference dotfiles
+
+Snapshots of the live config `setup.sh` produces, for reference:
+
+- `bashrc.loader.example` — the `~/.bashrc` loader (sources mybash + personal).
+  Paths are absolute (`/home/joematrix/...`); adjust for another user/clone path.
+- `bashrc_personal.example` — the seeded `~/.bashrc_personal`.

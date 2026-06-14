@@ -1,0 +1,8 @@
+# ~/.bashrc_personal — your custom shell settings live here.
+# Sourced AFTER the mybash config, so anything here overrides it.
+#
+# Example (ROCm on AMD RDNA4 / gfx1201):
+#   export ROCM_PATH=/usr
+#   export HSA_OVERRIDE_GFX_VERSION=12.0.0
+#   export PYTORCH_ROCM_ARCH=gfx1201
+#   export PATH="$PATH:$HOME/.local/bin"

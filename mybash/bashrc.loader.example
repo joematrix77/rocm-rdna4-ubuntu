@@ -1,0 +1,5 @@
+# >>> mybash loader (managed by setup.sh) >>>
+# Managed by mybash setup.sh — keep custom config in ~/.bashrc_personal instead.
+[ -f "/home/joematrix/build/mybash/.bashrc" ] && . "/home/joematrix/build/mybash/.bashrc"
+[ -f "/home/joematrix/.bashrc_personal" ] && . "/home/joematrix/.bashrc_personal"
+# <<< mybash loader <<<
